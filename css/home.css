@@ -1,0 +1,547 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1vw;
+  }
+  
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  section, .top, .top ul, .container {
+    display: flex;
+  }
+  
+  section.data {
+    display: block;
+    padding: 0 6% 1% 4%;
+  }
+  
+  .top ul li {
+      padding: 5%;
+      color: white;
+      border-bottom: 1px solid #ffffff36;
+      text-align: left;
+      padding: 3% 10%;
+  }
+  
+  .top ul li:last-child {
+    border: none;
+  }
+  li#header {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 10% 0;
+    border-bottom: 1px solid;
+    padding-bottom: 25px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+  
+  
+  section {
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+  }
+  
+  .top {
+    height: 100vh;
+    width: 18%;
+    position: fixed;
+    justify-content: center;
+    background: black;/*steelblue;*/
+  }
+    
+  .top ul {
+    width: 100vw;
+    flex-direction: column;
+    list-style-type: none;
+   }
+  
+   .top li {
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  
+  .container {
+    flex-direction: column;
+  }
+  
+  .img {
+    width: 200px;
+  }
+  
+  #dist-overview {
+    font-size: 65%
+  }
+  
+  .top ul {
+    margin-top: 30%;/*auto;*/
+  }
+  
+  .top ul li.sub-li {
+    font-size: 0.9vw;
+    width: 58%;
+      margin: 2% auto;
+  
+  }
+  
+  .top ul li.active {
+    color: #000;
+    background: #fff;
+  }
+  
+  .top ul li:hover {
+    background: #ddd;
+    color: #000;
+  }
+  .top ul li:last-child:hover,  .top ul li.active:last-child{
+    background: none;
+    color: none;
+  }
+  
+  
+  
+  table.schedule {
+    text-align: left;
+  }
+  
+  table.schedule thead {
+    background: #ddd;
+  }
+  
+  table.schedule tr  td {
+    border-bottom: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+  }
+  
+  table.scheduleplacetime {
+    text-align: left;
+  }
+  
+  table.scheduleplacetime thead {
+    background: #ddd;
+  }
+  
+  table.scheduleplacetime tr  td {
+    border-bottom: 1px dashed #ddd;
+    border-right: 1px dashed #ddd;
+  }
+  
+  
+  .badge {
+      background: #c40000;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+      line-height: 60%;
+      margin-right: 2%;
+      padding: 3%;
+      color: #fff;
+  }
+  
+  
+  .today {
+    background: #f5c1c1;
+    border: 5px solid #c40000;
+    font-size: 12px;
+    font-weight: 600;
+  
+  }
+  
+  table.schedule tr:nth-child(3n).fallbreak td {
+    padding-bottom: 0;
+  }
+  
+  table.schedule tr td {
+    border-right: 1px dashed #ddd;
+  }
+  
+  table.scheduleplacetime tr:nth-child(3n).fallbreak td {
+    padding-bottom: 0;
+  }
+  
+  table.scheduleplacetime tr td {
+    border-right: 1px dashed #ddd;
+  }
+  
+  .download {
+    float: left;
+  }
+  
+  .team {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .team.tools {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  .team img {
+    /*border-radius: 50%;*/
+  }
+  
+  .team.tools img {
+    border-radius: 0
+  }
+  .textbooks {
+    float: left;
+    width: 25%;
+    padding: 1%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  #needHelp {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background: #c40000;
+    padding: 1%;
+    border-radius: 50%;
+    text-align: center;
+    margin: 2%;
+    font-size: 1.5vw;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    line-height: 30px;
+  }
+  
+  #helpAdvice {
+      position: fixed;
+      width: 45%;
+      height: auto;
+      background: #efebeb;
+      top: 8%;
+      left: 30%;
+      box-shadow: 1px 1px;
+      display: none;
+      padding: 2%;
+      overflow-y: scroll;
+      z-index: 1000;
+  }
+  
+  .filter {
+    /*display: inline-block;
+    border: 0;
+    text-decoration: underline;
+    background: 0;
+    cursor: pointer;
+    color: blue;
+    padding: 0;
+    margin-right: 1%;*/
+  
+      /* display: inline-block; */
+      /* border: 0; */
+      /* text-decoration: underline; */
+      /*background: ghostwhite;*/
+      cursor: pointer;
+      /* color: blue; */
+      /*padding: 4px;*/
+      /* margin: 1% 1%; */
+      /* border: 0; */
+      /* background: darkgrey; */
+  }
+  
+  #quizSchedule,
+  #examSchedule,
+  #projectSchedule,
+  #psSchedule {
+    display: none;
+  }
+  
+  .themelist {
+    list-style: none;
+      display: inline-block;
+      padding: 2%;
+      margin: 2%;
+      font-size: 0.9vw;
+      font-weight: bold;
+      text-align: left;
+      background: powderblue;
+      border-radius: 15px;
+  }
+  
+  #dismiss {
+      float: right;
+      background: none;
+      border: 0;
+      color: #5050508c;
+      font-size: 80%;
+      line-height: 10px;
+      cursor: pointer;
+  }
+  
+  .communication {
+    font-style: italic;
+  }
+  
+  #projectgrading thead {
+    background: #000;
+    text-align: center;
+    padding: 1%;
+    color: #fff;
+  }
+  
+  #projectgrading td {
+      width: 1%;
+      background: #ddd;
+      padding: 1%;
+  }
+  
+  .filters {
+    margin: 4% 0;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  
+  .qlink {
+      width: 40px;
+      height: 25%;
+      writing-mode: vertical-rl;
+      text-align: center;
+      margin: 0 auto;
+      cursor: pointer;
+      line-height: 40px;
+      transform: rotate(180deg);
+      margin: auto;
+      text-decoration: none;
+  }
+  .qlink:nth-child(1) {
+    background: tomato;
+  }
+  .qlink:nth-child(2) {
+    background: burlywood;
+  }
+  
+  .qlink:nth-child(3) {
+    background: skyblue;
+  }
+  .qlink:nth-child(4) {
+    background: palegoldenrod;
+  }
+  .qlink:nth-child(5) {
+    background: olivedrab;
+  }
+  
+  
+  table {
+    width: 100%;
+  }
+  
+  table th, td {
+      padding: 1px 5px;
+  }
+  
+  #overlay {
+      width: 100%;
+      height: 100%;
+      background: #5f5f5f94;
+      z-index: 999;
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  
+  }
+  
+  h1 {
+    font-size: 2vw;
+  }
+  
+  h2 {
+    font-size: 1.75vw;
+  }
+  
+  h3 {
+    font-size: 1.5vw;
+  }
+  
+  h4 {
+    font-size: 1vw;
+  }
+  
+  p, li {
+    font-size: 1vw;
+  }
+  
+  .firstrow {
+    margin: 2% 10% 0 24%;
+  }
+  
+  #announcements, #Logistics { 
+    float: right;
+    padding: 5% 8%;
+    border-radius: 10px;
+    /* min-height: 165px; */
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 2%;
+    box-sizing: border-box;
+  }
+  
+  #announcements {
+    background: antiquewhite;
+    padding-bottom: 15%;
+    overflow-y: scroll;
+    height: 250px;
+  }
+  #announcements li {
+    list-style: none;
+  }
+  
+  #Logistics {
+    background: #c400002b;
+  }
+  
+  .twocols {
+    float: left;
+  
+        float: left;
+      margin-top: 2%;
+  }
+  
+  .twocols.firstcol {
+    width: 49%;
+    margin-top: 4%;
+  }
+  
+  .twocols.secondcol {
+        width: 50%;
+      padding-left: 5%;
+      box-sizing: border-box;
+      float: right;
+  }
+  .wrap {
+    margin: 2% 2% 1% 18%;
+  }
+  
+  section.data#Logistics, 
+  section.data#header, 
+  section.data#announcements {
+  }
+  
+  .threecols {
+      display: inline-block;
+      width: 32%;
+      box-sizing: border-box;
+      padding: 1%;
+      text-align: center;
+      vertical-align: top;
+      background: moccasin;
+      border-radius: 5px;
+      margin: 3px;
+  }
+  
+  .threecolscircle {
+      float: left;
+      width: 33%;
+      text-align: left;
+      padding: 2%;
+      box-sizing: border-box;
+  }
+  
+  .heading {
+      background: #c40000;
+      text-align: center;
+      color: #fff;
+      padding: 2%;
+  }
+  
+  .text {
+      padding: 0 9%;
+      text-align: center;
+      border: 1px solid #ddd;
+      margin-top: 2%;
+  }
+  
+  body.noscroll {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+  }
+  .quicklinks {
+      margin-left: 18%;
+      height: 100vh;
+      position: fixed;
+  }
+  
+  @media (max-width: 750px) {
+    .top ul {
+      margin: 0;
+    }
+  
+    #needHelp {
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+    }
+  
+    .threecols {
+      width: 100%;
+    }
+    .threecolscircle {
+      width: 100%;
+    }
+    .filter {
+          width: 100%;
+      font-size: 8px;
+    }
+    .team img {
+      display: none;
+    }
+    .qlink {
+      width: 10px;
+      line-height: 10px;
+    }
+  }
+  
+  .breaks {
+    background: #e9d1ff;
+  }
+  .lectures {
+    background: #cfedfc;
+  }
+  .recitations {
+    background: #d4f9d5;
+  }
+  
+  .quizzes, .exams {
+    background: antiquewhite;
+  }
+  
