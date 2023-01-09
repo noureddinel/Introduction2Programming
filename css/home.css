@@ -5,7 +5,7 @@
 
 body {
     font-family: "Kohinoor",Helvetica,Arial,sans-serif;
-    font-size: 1vw;
+    font-size: 1.18vw;
   }
   
   body, ul {
@@ -590,5 +590,16 @@ body {
 .special-row {
   background-color:  #fd7e14;
   color: white
+}
+
+.logo-container {
+  margin: 20px 0px 20px 0px ;
+  /* text-align: center; */
+}
+
+
+.logo-container img {
+  width: 300px;
+  height: 60px;
 }
 
