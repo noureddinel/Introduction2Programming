@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Koho;
-  src: url(../fonts/KoHo-Regular.ttf);
+  font-family: Kohinoor;
+  src: url(../fonts/kohinoor.ttf);
 }
 
 body {
-    font-family: "Koho",Helvetica,Arial,sans-serif;
+    font-family: "Kohinoor",Helvetica,Arial,sans-serif;
     font-size: 1vw;
   }
   
