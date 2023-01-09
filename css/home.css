@@ -592,3 +592,14 @@ body {
   color: white
 }
 
+.logo-container {
+  margin: 20px 0px 20px 0px ;
+  /* text-align: center; */
+}
+
+
+.logo-container img {
+  width: 300px;
+  height: 60px;
+}
+
