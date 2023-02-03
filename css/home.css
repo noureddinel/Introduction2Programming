@@ -600,7 +600,12 @@ body {
 
 .special-row {
   background-color:  #fd7e14;
-  color: white
+  color: #fd7e14
+}
+
+.test-row {
+  background-color:  #7c7e7f;
+  color: #676665
 }
 
 .logo-container {

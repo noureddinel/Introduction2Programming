@@ -7,7 +7,7 @@
     <link rel='icon' href='img/favicon.png' type='image/x-icon'>
     <link rel="stylesheet" href="css/home.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>15-440: Distributed Systems</title>
+    <title>Introduction to Programming with C++</title>
 </head>
 
 <body>
@@ -38,16 +38,14 @@
 
         <ul>
             <li data="overview">About the Course</li>
-            <!-- <li data="team">Course Team</li> -->
+            <li data="team">Course Team</li>    
             <li data="schedule">Schedule</li>
             <li data="Assessment">Coursework and Assessment</li>
-            <li class="sub-li" data="projects">4x Projects (40%)</li>
-            <li class="sub-li" data="exams">2x Exams (30%)</li>
-            <li class="sub-li" data="problemsets">5x Problem Sets (15%)</li>
-            <li class="sub-li" data="quizzes">2x Quizzes (10%)</li>
+            <li class="sub-li" data="exams">2x Exams (75%)</li>
+            <li class="sub-li" data="problemsets">Puzzles solving (Extra pts)</li>
+            <li class="sub-li" data="quizzes">3x Tests (20%)</li>
             <li class="sub-li" data="participation">Participation & Attendance (5%)</li>
-            <li data="resources">Textbooks and Resources</li>
-            <li data="Policies">Policies</li>
+            <li data="resources">Textbooks and Resources</li>   
 
             <!-- <li id="gethelp"><span id="needHelp">!</span></li> -->
         </ul>
@@ -61,10 +59,10 @@
             <div class="">
                 <h1>Introduction to Programming with C++ (3rd Term)</h1>
                 <h3>About the Course</h3>
-                <p>C++ is a <b>general programming language</b> that supports 
+                <p>C++ is a <b>high-level programming language</b> that supports 
   			<b>various</b> computer 
   			programming <b>models</b> such as <b>object-oriented</b> programming and 
-  			<b>generic</b> programming. It was created by Bjarne Stroustrup and,
+  			<b>generic</b> programming. It was created by <a href=https://fr.wikipedia.org/wiki/Bjarne_Stroustrup target="_blank"> Bjarne Stroustrup</a> and,
   			“Its main purpose was to make writing good programs easier 
   			and more pleasant for the programmer.”
 		  <p> By learning C++, you can create applications that will run
@@ -72,14 +70,23 @@
 		  computers running Windows, Linux, UNIX, and Mac OS X, 
 		  as well as small form factor hardware such as IoT 
 		  devices like the Raspberry PI and Arduino–based boards.
+          <p> C++ is <a href="https://www.tiobe.com/tiobe-index/" target="_blank">TIOBE's </a> programming language of the year 2022. 
+            It has won this title because C++ gained most popularity (+4.62%) in 2022. 
+            The reason for C++'s popularity is its excellent performance 
+            while being a high level object-oriented language. 
+            Because of this, it is possible to develop fast and vast software systems 
+            (over millions of lines of code) in C++ without necessarily 
+            ending up in a maintenance nightmare. 
+             </p>
 			  
-                <h3>Lectures & Recitations</h3>
+                <h3>Lectures</h3>
 
                 <table class="scheduleplacetime" id="placetime">
                 <thead>
                     <tr class="schedule-firstrow">
                         <th></th>
                         <th>Time</th>
+                        <th>Section/Group</th>
                         <th>Place</th>
                         <th>Faculty/Staff</th>
                     </tr>
@@ -87,38 +94,71 @@
                 <tbody>
                     <tr>
                         <td>Lectures</td>
-                        <td>Sunday and Tuesday, 08:30 am - 09:45 am</td>
-                        <td>CMB - 3044</td>
-                        <td>Mohammad Hammoud</td>
+                        <td>Sun., Mon. and Wed. [10:40 - 12:40] </td>
+                        <td>S02</td>
+                        <td>Amphi</td>
+                        <td>Kamel Boukhalfa</td>
                     </tr>
                     <tr>
-                        <td>Recitations</td>
-                        <td>Thursday, 08:45 am - 09:35 am</td>
-                        <td>CMB - 3044</td>
-                        <td>Ammar Karkour</td>
-
+                        <td>Lectures</td>
+                        <td>Mon. and Wed. [08:30 - 10:30], Thu. [10:40-12:40] </td>
+                        <td>S01</td>
+                        <td>Amphi</td>
+                        <td>Noureddine Lasla</td>
                     </tr>
+                    
                 </tbody>
             </table>
             
         
             </ol>
+        </div>
+        </section>
 
+        <section id="team" class="data" data-section-name="team">
              <h3>Course Team</h3>
             <p>We are always available for help and support during our office hours. To receive help outside of our office hours, it is prefered to schedule a meeting.
             </p>
-            <div class="">
+        
+            <div class="textbooks">
                 <!-- <img src="./img/prof.jpg" width="150" height="150" /> -->
-                <h4>Noureddine Lasla</h4>
+                <h5>Prof. Kamel Boukhalfa</h5>
+                <img src="./img/Kamel_Boukhalfa.png" width="70%" height="100%" />
+                <p>E-mail: kamel.boukhalfa@ensia.edu.dz</p>
+                <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
+            </div>
+            <div class="textbooks">
+                <h5>Dr. Noureddine Lasla</h5>
+                <img src="./img/Noureddine_Lasla.png" width="70%" height="100%" />
                 <p>E-mail: noureddine.lasla@ensia.edu.dz</p>
                 <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
             </div>
-            <div class="">
-        
+            <div class="textbooks">
+                <h5>Dr. Fouzia Anguel</h5>
+                <img src="./img/unknown2.webp" width="97%" height="100%" />
+                <p>E-mail: fouzia.anguel@ensia.edu.dz </p>
+                <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
+            </div>
+            <div class="textbooks">
+                <h5>Dr. Sami Belkacem</h5>
+                <img src="./img/Sami_Belkacem.png" width="70%" height="100%" />
+                <p>E-mail: sami.belkacem@ensia.edu.dz </p>
+                <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
             </div>
 
+            <div class="textbooks", style="float:right">
+                <h5>Mrs. Asma Aouichat</h5>
+                <img src="./img/Asma-Aouichat.jpg" width="80%" height="100%" />
+                <p>E-mail: asma.aouichat@ensia.edu.dz </p>
+                <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
             </div>
-
+            <div class="textbooks", >
+                <h5>Dr. Mourad Lassouaoui</h5>
+                <img src="./img/unknown.jpg" width="70%" height="100%" />
+                <p>E-mail: Mourad.lassouaoui@ensia.edu.dz </p>
+                <p>Office hours: Tuesday, 10:00 - 11:30 AM</p>
+            </div>
+                
         </section>
 
         <section id="schedule" class="data" data-section-name="schedule">
@@ -135,26 +175,21 @@
                     <th>Week</th>
                     <th>Date</th>
                     <th>Topic</th>
-                    <th>Lecture</th>
-                    <th>Reading</th>
-                    <th>Coursework</th>
+                    <th>Corresponding chapters in Textbook</th>
+                    <th>Coursework (Labs)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>#1</td>
                     <td>
-                        <div>Feb 4 </div>
-                        <div>Feb 5 </div>
-                        <div>Feb 6 </div>
+                        <div>Feb 05, Feb 09 </div>
                     </td>
                     <td>
-                        <div>Introduction 1 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Introduction 2 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
-                        <div>Introduction 3 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
+                        <div>Introduction (<a href="https://docs.google.com/presentation/d/1hSfTYzqpSkiaTDEWh-R16NBp5tEm2brY/edit#slide=id.p3">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
-                    <td>Introduction</td>
-                    <td></td>
+                    <td>1, 2</td>
+                    
                     <td>
                         <div> L0 (C programming lab) out  (<a href="#" download">pdf</a>, <a href="#" download">pdf</a>, <a href="#" download">tar</a>)</div>
                         <div></div>
@@ -163,17 +198,12 @@
                 <tr class="active-row">
                     <td>#2</td>
                     <td>
-                        <div>Feb 11 </div>
-                        <div>Feb 12 </div>
-                        <div>Feb 13 </div>
+                        <div>Feb 12 ,  Feb 16 </div>
                     </td>
                     <td>
-                        <div>Control Structures 1 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Control Structures 2 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Control Structures 3 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
+                        <div>Control Structures (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
-                    <td>Control Structures</td>
-                    <td></td>
+                    <td>4, 5</td>
                     <td>
                         <div> L1 due, L2 (bomb lab) out </div>
                         <div></div>
@@ -182,36 +212,28 @@
                 <tr>
                     <td>#3</td>
                     <td>
-                        <div>Feb 18 </div>
-                        <div>Feb 19 </div>
-                        <div>Feb 29 </div>
+                        <div>Feb 19 , Feb 23 </div>
                     </td>
                     <td>
-                        <div>Array, matrix1 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Array, matrix2 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
-                        <div>Array, matrix3 (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
+                        <div>Procedure, Function and Recursion (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
-                    <td>	Array, matrix</td>
-                    <td></td>
+                    <td>	6</td>
                     <td>
                         <div> 	L2 due, L3 (attacklab) out  (<a href="#" download">pdf</a>, <a href="#" download">pdf</a>, <a href="#" download">tar</a>)</div>
                         <div></div>
                     </td>
                 </tr>
+                <tr class="test-row">
+                    <td rowspan="2">#4</td>
+                    <td rowspan="2">Feb 26, Mar 02</td>
+                    <td colspan="3", style="text-align: center">Lab Test 01</td>        
+                </tr>
                 <tr class="active-row">
-                    <td>#4</td>
+                    
                     <td>
-                        <div>Feb 25 </div>
-                        <div>Feb 26 </div>
-                        <div>Feb 27 </div>
+                        <div>Array, Matrix (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
-                    <td>
-                        <div>String and Structures (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>String and Structures (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>String and Structures (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                    </td>
-                    <td>String and Structures</td>
-                    <td></td>
+                    <td>7</td>
                     <td>
                         <div>L2 due</div>
                         <div>L0 due (hard)</div>
@@ -219,97 +241,87 @@
                     </td>
                 </tr>
                 <tr class="special-row">
-                    <td>#5</td>
-                    <td>Mar 4</td>
-                    <td></td>
-                    <td>Midterm Exam</td>
-                    <td></td>
-                    <td></td>
+                    <td rowspan="2">#5</td>
+                    <td rowspan="2">Mar 05, Mar 09</td>
+                    <td colspan="3", style="text-align: center">Mid-term Exam</td>        
                 </tr>
                 <tr>
-                    <td></td>
+                    
                     <td>
-                        <div>Mar 4 </div>
-                        <div>Mar 5 </div>
-                        <div>Mar 6 </div>
+                        <div>Pointers, Dynamic memory, and Linked list (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
+                    <td>8</td>
                     <td>
-                        <div>Procedure (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Function (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
-                        <div>Recursion  (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
+                        <div>L2 due</div>
+                        <div>L0 due (hard)</div>
+                        <div>L4 (cachelab) out</div>
                     </td>
-                    <td>Procedure, Function and Recursion</td>
-                    <td></td>
-                    <td>
-                        <div> </div>
-                        <div></div>
-                    </td>
+                </tr>
+                <tr class="test-row">
+                    <td rowspan="2">#6</td>
+                    <td rowspan="2">Mar 12, Mar 16 </td>
+                    <td colspan="3", style="text-align: center">Lecture Test</td>        
                 </tr>
                 <tr class="active-row">
-                    <td>#6</td>
                     <td>
-                        <div>Mar 11 </div>
-                        <div>Mar 12 </div>
-                        <div>Mar 13 </div>
+                        <div>String and Structures (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
+                    <td>9, 12</td>
                     <td>
-                        <div>Pointers (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Dynamic memory (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Dynamic memory (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
+                        <div>L2 due</div>
+                        <div>L0 due (hard)</div>
+                        <div>L4 (cachelab) out</div>
                     </td>
-                    <td>Pointers and dynamic memory</td>
-                    <td></td>
-                    <td>
-                        <div></div>
-                        <div></div>
-                    </td>
+                </tr>
+                <tr class="test-row">
+                    <td rowspan="2">#7</td>
+                    <td rowspan="2">Mar 19, Mar 23 </td>
+                    <td colspan="3", style="text-align: center">Lab Test 02</td>        
                 </tr>
                 <tr>
-                    <td>#7</td>
                     <td>
-                        <div>Mar 18 </div>
-                        <div>Mar 19 </div>
-                        <div>Mar 20 </div>
+                        <div>Streams and Files (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
                     </td>
+                    <td>10, 11</td>
                     <td>
-                        <div>Files (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>)</div>
-                        <div>Streams </div>
-                        <div>Streams  (<a href="#" download">pptx</a>, <a href="#" download">pdf</a>, <a href="#" download">code</a>)</div>
-                    </td>
-                    <td>Files and streams</td>
-                    <td></td>
-                    <td>
-                        <div></div>
-                        <div></div>
+                        <div>L2 due</div>
+                        <div>L0 due (hard)</div>
+                        <div>L4 (cachelab) out</div>
                     </td>
                 </tr>
-                <tr style="background-color: #dadada;">
+                
+                <tr style="color: #7ca6d8;">
                     <td>#8</td>
-                    <td>Mar 25</td>
-                    <td></td>
-                    <td>Spring Break</td>
-                    <td></td>
-                    <td></td>
+                    <td>Mar 26, Mar 30</td>
+                    <td colspan="3", style="text-align: center">Spring Break</td>
                 </tr>
-                <tr style="background-color: #dadada;">
+                <tr style="color: #7ca6d8;">
                     <td>#9</td>
-                    <td>Apr 01</td>
-                    <td></td>
-                    <td>Spring Break</td>
-                    <td></td>
-                    <td></td>
+                    <td>Apr 02 , Apr 06</td>
+                    <td colspan="3", style="text-align: center">Spring Break</td>
                 </tr>
                 <tr class="special-row">
                     <td>#10</td>
-                    <td>Apr 08</td>
-                    <td></td>
-                    <td>Final exam</td>
-                    <td></td>
-                    <td></td>
+                    <td>Apr 09 , Apr 13</td>
+                    <td colspan="3", style="text-align: center">Final Exam</td>
                 </tr>
             </tbody>
         </table>
-    
+          
+          <table>
+            <tr>
+              <td class="special-row"></td>
+              <td style="color:#fd7e14;">Exam</td>
+            </tr>
+            <tr>
+              <td class="test-row"></td>
+              <td style="color:#7c7e7f;">Test</td>
+            </tr>
+            <tr>
+                <td style="background:#7ca6d8;"></td>
+                <td style="color:#7ca6d8">Break</td>
+              </tr>
+          </table>
         </section>
 
 
@@ -320,7 +332,7 @@
             <ol>
                 <li>Attending lectures and recitations</li>
                 <li>Solving assignments (including writing and reading assignments)</li>
-                <li>Solving large programming projects</li>
+                <li>Solving complex puzzles</li>
                 <li>Taking exams and quizzes</li>
                 <li>Participating in class discussions</li>
             </ol>
@@ -331,292 +343,160 @@
             <br/>
             <table class="mx-auto">
                 <tr class="toprow">
-                    <td class="leftcol">Type</td>
-                    <td class="data">#</td>
-                    <td class="data">Weight</td>
+                    <td class="leftcol"><strong>Type</strong></td>
+                    <td class="data"><strong>#</strong></td>
+                    <td class="data"><strong>Weight</strong></td>
                 </tr>
                 <tr class="row1">
-                    <td class="leftcol">Projects</td>
-                    <td class="data">4</td>
-                    <td class="data">40%</td>
+                    <td class="leftcol">Mid-term Exam</td>
+                    <td class="data">1</td>
+                    <td class="data">25%</td>
                 </tr>
                 <tr class="row1">
-                    <td class="leftcol">Exams</td>
-                    <td class="data">2</td>
-                    <td class="data">30%</td>
+                    <td class="leftcol">Final Exam</td>
+                    <td class="data">1</td>
+                    <td class="data">50%</td>
+                </tr>
+
+                <tr class="row1">
+                    <td class="leftcol">Tests</td>
+                    <td class="data">3</td>
+                    <td class="data">20%</td>
                 </tr>
                 <tr class="row1">
-                    <td class="leftcol">Problem Sets</td>
-                    <td class="data">5</td>
-                    <td class="data">15%</td>
-                </tr>
-                <tr class="row1">
-                    <td class="leftcol">Quizzes</td>
-                    <td class="data">2</td>
-                    <td class="data">10%</td>
+                    <td class="leftcol">Puzzles Solving</td>
+                    <td class="data">3</td>
+                    <td class="data">Extra points</td>
                 </tr>
                 <tr class="row1">
                     <td class="leftcol">Class Participation and Attendance</td>
-                    <td class="data">42</td>
+                    <td class="data">14</td>
                     <td class="data">5%</td>
                 </tr>
             </table>
             <br/>
             <br/>
             <br/>
-            <p>Because of the importance of understanding both the theoretical and hands-on elements of the class, <b>students must pass both components of the course </b>(projects as one component, and exams, quizzes and problem sets as the second) in order to receive a passing grade for the course. This does not affect the actual letter grade assignment unless one of the components is not completed to a passing standard.</p>
         </section>
 
-        <section id="projects" class="data" data-section-name="projects">
-            <h3>Projects (40%)</h3>
-            <p>The projects will count for a total of 40% of your final score. There will be 4 projects throughout the course. All projects are individual projects (i.e., no team can work on the same project).</p>
-
-            <p>Project's percentages are as follows:</p>
-            <table id="projectgrading">
-                <thead>
-                    <tr class="schedule-firstrow">
-                        <th>Project</th>
-                        <th>Date</th>
-                        <th>Percentage</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Project 1</td>
-                        <td>25 Jan - 21 Feb</td>
-                        <td>15%</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Project 2</td>
-                        <td>24 Feb - 16 Mar</td>
-                        <td>7.5%</td>
-                        <td>
-                            <p>Project 2 heavily relies on completing Project 1, and therefore, it’s strongly advised to finish P1 early to avoid complications with P2 (If you have not completed P1, you will <b>not</b> be given any solution files to work on P2!)</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Project 3</td>
-                        <td>17 Mar - 7 Apr</td>
-                        <td>10%</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Project 4</td>
-                        <td>11 Apr - 21 Apr</td>
-                        <td>7.5%</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-            <br/>
-            <br/>
-            <br/>
-            <p>You are encouraged to submit the projects on time. For all projects except the final one, the following rules apply:
-                <p/>
-                <ul>
-                    <li> If you submit one day late, we will deduct 25% of the project score as a penalty. </li>
-                    <li>If you submit two days late, 50% will be deducted. </li>
-                    <li>The project will not be graded (and you will receive a zero score on it) if you are more than two days late. </li>
-                </ul>
-                <h4>Grace days</h4>
-                <p>There is a grace-days quota for projects. In particular, you will be given <b>3</b> grace days for all projects, except for the final one. You can use the grace days as needed. For instance, you can submit your first project three days late and still receive no penalty. In this case, you will be penalized starting from the 4th day after the deadline. Furthermore, when you consume all your grace days, you will be left with no grace days for the rest of the projects.</p>
-                <br/>
-
-                <h4>Final project</h4>
-
-                <p>Note that the final project is unique in two aspects. First, you cannot cannot use grace days for it. As such, if you are left with some grace days before the final project, you will lose them all. Hence, plan how to utilize your grace-days quota judiciously.
-                    <br/>
-                    <br/>Second, there will not be any penalty system for this project either. More precisely, if you are one day late in submitting the project, it will not be graded and you will receive a zero score on it.</p>
-
-        </section>
+        
 
         <section id="exams" class="data" data-section-name="exams">
-            <h3>Exams (30%)</h3>
-            <p>There will be two in-class exams – midterm and final – which together will count for 30% of your final score.</p>
+            <h3>Exams (75%)</h3>
+            <p>There will be two in-class exams – midterm and final – which together will count for 75% of your final score.</p>
 
-            <li>The midterm is worth 10%</li>
-            <li>The final is worth 20%</li>
+            <li>The midterm is worth 25%</li>
+            <li>The final is worth 50%</li>
 
-            <p>Both exams are open-book. That is, you are allowed to bring your textbooks, slides, and other supporting documents of your own. Any electronic equipment is not allowed, however.</p>
+            <p> Any electronic equipment is not allowed during the exam.</p>
 
         </section>
 
         <section id="problemsets" class="data" data-section-name="problemsets">
-            <h3>Problem Sets (15%)</h3>
-            <p>There will be 5 assignments that will test you on problem analysis and solving skills. These assignments will altogether carry 15% of your final score. At the end of the semester, the Problem Set with the lowest score will be dropped</i>
+            <h3>Puzzles solving (Extra points)</h3>
+            <p>There will be 3 puzzles that will test you on problem analysis and solving skills. These assignments will altogether carry extra points (01 point each). The main goal is to rise your algorithmic skills.</i>
             </p>
         </section>
 
         <section id="quizzes" class="data" data-section-name="quizzes">
-            <h3>Quizzes (10%)</h3>
-            <p>There will be 2 quizzes, which together will count for 10% of your final score. These quizzes are meant to test your understanding and preparation for the concepts covered throughout the course.</p>
+            <h3>Testes (20%)</h3>
+            <p>There will be 3 Tests, which together will count for 20% of your final score. These Tests are meant to test your understanding and preparation for the concepts covered throughout the course and labs.</p>
         </section>
 
         <section id="participation" class="data" data-section-name="participation">
             <h3>Participation & Attendance (5%)</h3>
-            <b>Class-Recitation Participation and Attendance:</b>
-            <p>Your attendance of both, classes and recitations, as well as your participation in discussions during presentations will count for 5% of your final score.</p>
+            <p>Your attendance of labs as well as your participation in discussions during presentations will count for 5% of your final score.</p>
         </section>
 
         <section id="resources" class="data" data-section-name="resources">
             <h1>Textbooks & Resources</h1>
-            <p>In this course, we will refer to the below resources and textbooks. There are two primary textbooks and two additional:</p>
+            <p>In this course, we will refer to the below resources and textbooks. </p>
             <!-- <h3>Communication in Distributed Systems</h3> -->
-            <div class="content">
-                <h4>Java Socket Programming</h4>
-                <ul>
-                    <li><a href="http://www.buyya.com/java/Chapter13.pdf"> Buyya's Socket tutorial </a></li>
-                    <li><a href="https://www.infoworld.com/article/2853780/socket-programming-for-scalable-systems.html"> Socket
-                      programming
-                      from
-                      Java-world </a>
+            <h3>TextBooks:</h3>
+            <div class="textbooks">
+                <h5>C++ How to Program</h5>
+                <p><a href="https://www.amazon.com/How-Program-8th-Paul-Deitel/dp/0132662361"> Link </a></p>
+                <img src="./img/book7.jpg" width="70%" height="10%" />
+                <h5>Paul Deitel, Harvey Deitel</h5>
+                <h5>Seventh Edition, Deitel, 2010</h5>
+            </div>
+            <div class="textbooks">
+                <h5>C++ How to Program</h5>
+                <p><a href="https://www.amazon.com/How-Program-8th-Paul-Deitel/dp/0132662361"> Link </a></p>
+                <img src="./img/book1.jpg" width="64.5%" height="10%" />
+                <h5>Paul Deitel, Harvey Deitel</h5>
+                <h5>Eighth Edition, Deitel, 2011</h5>
+            </div>
+            <div class="textbooks">
+                <h5>C++ How to Program</h5>
+                <p><a href="https://www.amazon.com/C-How-Program-9th-Paperback/dp/8120349997/ref=sr_1_1?crid=22PTC6CHZWFU3&keywords=C%2B%2B+How+to+Program+ninth&qid=1675417827&s=books&sprefix=c%2B%2B+how+to+program+ninth%2Cstripbooks-intl-ship%2C175&sr=1-1"> Link </a></p>
+                <img src="./img/book11.jpg" width="70%" height="100%" />
+                <h5>Paul Deitel, Harvey Deitel</h5>
+                <h5>Ninth Edition, Deitel, C++11 (2014)</h5>
+            </div>
+            <div class="textbooks">
+                <h5>C++ How to Program</h5>
+                <p><a href="https://www.amazon.com/How-Program-10th-Paul-Deitel-dp-0134448235/dp/0134448235/ref=dp_ob_title_bk"> Link </a></p>
+                <img src="./img/book10.jpg" width="70%" height="100%" />
+                <h5> Paul Deitel, Harvey Deitel</h5>
+                <h5>Tenth Edition, Deitel, C++14 (2016)</h5>
+            </div>
+              <p>
+              </p>  
+            <div class="content", style="float:left">
+                <h3>Miscellaneous</h3>
+                <h4>C++ compilers:</h4>
+                    <li><a href="https://www.gnu.org/software/gcc/"> GCC, the GNU Compiler Collection </a></li>
+                    <li><a href="https://gcc.gnu.org/projects/cxx-status.html"> C++ Standards Support in GCC </a>
+                    <li><a href="http://clang.llvm.org"> Clang C++ Compiler </a></li>
+                    <li><a href="http://clang.llvm.org/cxx_status.html"> C++ standards support in Clang </a>
                     </li>
                 </ul>
-                <h4>Java RMI</h4>
+                <h4>CodeBlock IDE:</h4>
                 <ul>
-                    <li><a href="http://download.oracle.com/javase/tutorial/rmi/index.html">
-                      Oracle's Java RMI tutorial </a></li>
+                    <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"> How to setup CodeBlock IDE </a></li>
                 </ul>
-            </div>
-            <h3>Miscellaneous</h3>
-            <div class="content">
                 <ul>
-                    <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"> How to read a research
-                    paper </a></li>
-                    <li>
-                        <a href="http://www.uis.edu/ctl/wp-content/uploads/sites/76/2013/03/Howtocritiqueajournalarticle.pdf">
-                    How to critique research papers </a>
+                    <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"> Configure CodeBlock to build a project (with multiple source and header files) </a></li>
+                </ul>
+
+                <h4>Visual Studio Code IDE:</h4>
+                <ul>
+                    <li><a href="https://code.visualstudio.com/"> How to setup VSCode IDE </a></li>
+                </ul>
+                <ul>
+                    <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"> Configure VSCode to build a project (with multiple source and header files) </a></li>
+                </ul>
+                <h4>Programming assignment in Google Classroom:</h4>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=YWxfZmROKpU"> How to submit assignment in Google Classroom </a></li>
+                </ul>
+
+                <h4>C++ Libraries and Reference cards:</h4>
+                    <li><a href="https://drive.google.com/file/d/16zbCQT-U3VHZr6-5uAsMfURB92GhQ5RA/view?usp=share_link
+                        "> C++ Libraries </a></li>
+                    <li><a href="https://drive.google.com/file/d/1uFBdhHKUXaaWLYaD39qdT8Axgk669b3Y/view?usp=share_link"> Reference Card </a></li>
                     </li>
                 </ul>
-            </div>
 
-            <div class="textbooks">
-                <h5>Distributed Systems: Principles and Paradigms</h5>
-                <p>(Primary)</p>
-                <img src="./img/distributed.jpg" width="70%" height="100%" />
-                <h5>Andrew S. Tannenbaum and Maarten Van Steen</h5>
-                <h5>Second Edition, Pearson, 2007</h5>
+                <h4>ISO C++ Foundation:</h4>
+                <ul>
+                    <li><a href="https://isocpp.org/about"> About ISO C++ </a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://github.com/isocpp"> ISO C++ GitHub </a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://cppcon.org/"> the C++ conference (Cppconf)</a>, and its  <a href="https://www.youtube.com/user/CppCon"> Youtube channel </a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://medium.com/factset/modern-c-in-depth-lambdas-part-1-d03fe8153ee1"> Modern C++ In-Depth (Article) </a></li>
+                </ul>
             </div>
-            <div class="textbooks">
-                <h5>Distributed Systems: Concepts and Design</h5>
-                <p>(Primary)</p>
-                <img src="./img/distributed2.jpg" width="70%" height="100%" />
-                <h5>George Coulouris, Jean Dollimore, Tim Kindberg, and Gordon Blair</h5>
-                <h5>Fifth Edition, Addison Wesley, 2011</h5>
-            </div>
-            <div class="textbooks">
-                <h5>Computer Systems: A Programmer's Perspective</h5>
-                <p>(Additional)</p>
-                <img src="./img/systems.jpg" width="70%" height="100%" />
-                <h5>Randal E. Bryant and David R. O'Hallaron</h5>
-                <h5>Prentice Hall, 2003</h5>
-            </div>
-            <div class="textbooks">
-                <h5>Hadoop: The Definitive Guide</h5>
-                <p>(Additional)</p>
-                <img src="./img/hadoop.jpg" width="70%" height="100%" />
-                <h5>Tom White</h5>
-                <h5>Second Edition, O'Reilly Media, 2010</h5>
-            </div>
-
-
+            
+            
+            
         </section>
-        <section id="Policies" class="data" data-section-name="Policies">
-            <h1>Policies</h1>
-            <h3>Working Alone on Assignments/Projects</h3>
-            <p>Assignments/projects that are assigned to students should be performed individually. This course does not include any team projects or assignments.</p>
-
-            <h3>Handing in Assignments/Projects</h3>
-            <p>All assignments/projects are due at 11:59PM (one minute before midnight) on the specified due date. All submissions are electronic and should be submitted using <a href="https://www.gradescope.com/courses/410924" target="_blank">Gradescope</a>'s course page. </p>
-            <p>
-                Refer to the following link for how to submit your solutions to Gradescope: <a href="https://www.gradescope.com/get_started#student-submission" target="_blank">https://www.gradescope.com/get_started#student-submission</a>
-            </p>
-
-            <h3>Making up Exams, Assignments and Projects</h3>
-            <p>Missed exams, assignments and projects can be made up on a case by case basis, but only if you make prior arrangements with the instructor. However, you should have a good reason for doing so. You need a written consent from the instructor for making up exams, assignments or projects. It is your responsibility to get your projects and assignments done on time. Be sure to work far enough in advance to avoid unexpected problems, such as illness, unreliable or overloaded computer systems, etc.</p>
-            <h3>Appealing Grades</h3> After each exam, assignment, and/or project is graded, you have 7 calendar days to appeal your grade. All your appeals should be provided in writing. If after appealing you are still not satisfied, please visit the instructor. If you have questions about an exam, an assignment or a project grade, please visit the instructor directly.</p>
-
-        </section>
-
-        <!-- <section class="data" id="cheating" data-section-name="cheating">
-            <h1>Cheating</h1>
-            <p>Each project or assignment must be the sole work of the student turning it in. Projects and assignments will be closely monitored, and students may be asked to explain suspicious similarities with any write-up or piece of code available. The following are guidelines on what cheating is and is not: </p>
-            <p><b>What is cheating?</b>
-                <br/>
-                <br/> 1. Sharing code or other electronic files: either by copying, retyping, looking at, or supplying a copy of a file.
-                <br/> 2. Sharing written assignments: either by re-writing, looking at, or supplying a copy of an assignment.
-                <br/>
-                <br/>
-                <b>What is NOT cheating?</b>
-                <br/>
-                <br/> 1. Clarifying ambiguities or vague points in class handouts.
-                <br/> 2. Helping others use the computer systems, networks, compilers, debuggers, profilers, or other system facilities.
-                <br/> 3. Helping others with high-level design issues.
-                <br/> 4. Helping others debug their codes.
-                <br/>
-                <br/> Consequently, be aware of what constitutes cheating (and what does not) when interacting with your colleague students. Same rules of cheating as above apply when collaborating with other students. In short, you cannot share written assignments, code, and/or other electronic files with other students. If you are unsure, ask the teaching staff. Finally, be sure to store your work in protected directories. The penalty for cheating is severe, and might jeopardize your whole career as a student - cheating is not worth the trouble. By cheating in the course, you are cheating yourself; the worst outcome of cheating is missing an opportunity to learn. Besides, you will be removed from the course and assigned a failing grade. We also place a record of the incident in your permanent university profile.
-                <br/>
-            </p>
-
-        </section> -->
-
-        <!-- <section class="data" id="health" data-section-name="health">
-            <h1>Health</h1>
-            <h4>Learning Disabilities</h4>
-            <p>Carnegie Mellon University is committed to providing reasonable accommodations for all persons with disabilities. To access accommodation services you are expected to initiate the request and submit a Voluntary Disclosure of Disability Form to the office of Health & Wellness or CaPS-Q. In order to receive services/accommodations, verification of a disability is required as recommended in writing by a doctor, licensed psychologist or psycho-educational specialist. The office of Health & Wellness, CaPS-Q and Office of Disability Resources in Pittsburgh will review the information you provide. All information will be considered confidential and only released to appropriate persons on a need to know basis. Once the accommodations have been approved, you will be issued a Summary of Accommodations Memorandum documenting the disability and describing the accommodation. You are responsible for providing the Memorandum to your professors at the beginning of each semester. For more information on policies and procedures, please visit <a href="https://scotty.qatar.cmu.edu/qword/student-affairs/office-of-health-and-wellness/assistance-for-individuals-with-disabilities/" target="_blank">this document</a>.
-                <br/>
-                <br/>
-                <br/>
-            </p>
-
-            <h4>Taking Care of Yourself</h4>
-            <p>Do your best to maintain a healthy lifestyle this semester by eating well, exercising, getting enough sleep, and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
-                <br/>
-                <br/> If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS-Q) is here to help: call 4454 8525 or make an appointment to see the counselor by emailing student-counselling@qatar.cmu.edu. Consider reaching out to a friend, faculty, or family member you trust for help.
-                <br/>
-                <br/> If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night, at 5554-7913.
-                <br/>
-                <br/> If the situation is life threatening, call 999.
-                <br/>
-                <br/>
-            </p>
-
-        </section> -->
-
-      <!--   <section id="resources" class="data" data-section-name="resources">
-            <h1>Resources</h1>
-            <h3>Communication in Distributed Systems</h3>
-            <div class="content">
-                <h4>Java Socket Programming</h4>
-                <ul>
-                    <li><a href="http://www.buyya.com/java/Chapter13.pdf"> Buyya's Socket tutorial </a></li>
-                    <li><a href="http://www.javaworld.com/javaworld/jw-12-1996/jw-12-sockets.html"> Socket
-                      programming
-                      from
-                      Java-world </a>
-                    </li>
-                </ul>
-                <h4>Java RMI</h4>
-                <ul>
-                    <li><a href="http://download.oracle.com/javase/tutorial/rmi/index.html">
-                      Oracle's Java RMI tutorial </a></li>
-                </ul>
-            </div>
-            <h3>Miscellaneous</h3>
-            <div class="content">
-                <ul>
-                    <li><a href="http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"> How to read a research
-                    paper </a></li>
-                    <li>
-                        <a href="http://www.uis.edu/ctl/wp-content/uploads/sites/76/2013/03/Howtocritiqueajournalarticle.pdf">
-                    How to critique research papers </a>
-                    </li>
-                </ul>
-            </div>
-        </section> -->
-    </div>
     <script src="js/home.js"></script>
 </body>
 
