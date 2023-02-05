@@ -69,9 +69,6 @@ $(document).ready(function() {
     /* highlighting the active section */
     $('li').removeClass('active');
     datahash = window.location.hash.split("#")[1];
-
-    console.log(datahash)
-
     
     element = "li[data='"+datahash+"']";
     $("li[data='"+datahash+"']").addClass("active");
