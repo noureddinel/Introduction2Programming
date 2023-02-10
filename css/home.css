@@ -102,11 +102,22 @@ body {
     background: #ddd;
     color: #000;
   }
-  .top ul li:last-child:hover,  .top ul li.active:last-child{
-    background: none;
-    color: none;
+  .top ul li:last-child {
+    color:orange;
+  } 
+  .top ul li:last-child:hover {
+    background: white;
+    color: white;
+  }  
+  .top ul li.active:last-child{
+    color: white;
+    background: white;
   }
   
+  mark {
+    background: red;
+    color: white;
+  }
   
   
   table.schedule {
